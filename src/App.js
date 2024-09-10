@@ -1,10 +1,12 @@
-import About from "./Comonents/About";
-import Contact from "./Comonents/Contact";
-import Experiences from "./Comonents/Experiences";
-import Hero from "./Comonents/Hero";
-import Navbar from "./Comonents/Navbar";
-import Projects from "./Comonents/Projects";
-import Technologies from "./Comonents/Technologies";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Experiences from "./Components/Experiences";
+import Footer from "./Components/Footer";
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
+import OurMission from "./Components/OurMission";
+import Projects from "./Components/Projects";
+import Technologies from "./Components/Technologies";
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
         < Navbar />
         < Hero />
         < About />
-        <Technologies />
+        < OurMission />
+
         < Experiences />
         < Projects />
-        < Contact/>
+        < Contact />
+        <Footer />
       </div>
 
     </div>
