@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <h1  className='p-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>Welcome to <span className='bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent font-semibold tracking-tight '>Hello SHE</span>
+                        <h1  className='p-16 text-3xl font-thin tracking-tight lg:mt-16 lg:text-4xl block'>Welcome to <span className='bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-5xl lg:text-8xl text-transparent font-semibold tracking-tighter '>Hello SHE</span>
                         </h1>
                         <p
                             className='bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight '>A Non Profitable Organization</p>
