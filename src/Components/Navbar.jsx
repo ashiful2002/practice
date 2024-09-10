@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Navbar = () => {
     return (
         <>
-            <nav className=' flex justify-between items-center mb-20 py-6'>
+            <nav className=' flex justify-between items-center mb-20 mr-0'>
                 <div className='flex items-center flex-shrink-0'>
                     <a href="/">
                     <img src={HelloSheLogo}  className='mx-2 w-20 rounded-full' alt="logo" />
