@@ -1,11 +1,11 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants/index'
-import profilePic from '../assets/kevinRushProfile.png'
+import HeroImage from '../assets/HeroImage.jpg'
 
 
 const Hero = () => {
     return (
-        <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+        <div className='border-b border-neutral-900 pb-4 lg:mb-35 mt-4 h-[80vh] m-auto'>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className='flex justify-center'>
-                        <img src={profilePic} alt="Profile image" />
+                        <img className='rounded-3xl' src={HeroImage} alt="Profile image" />
                     </div>
                 </div>
             </div>

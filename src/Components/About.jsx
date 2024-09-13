@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='border-b border-neutral-900 pb-4'>
             <h1 className="my-20 text-center text-4xl">
-            Who We Are
+           About us
             <span className='text-neutral-500 '></span>
             </h1>
             <div className="flex flex-wrap">

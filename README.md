@@ -1,3 +1,19 @@
+
+# sections
+
+## Header (with navigation)
+## hero
+## impact 
+## join us (subsection)
+## mission vission
+## focusing area
+## testimonial
+## stay updated
+## supporting partner
+## Footer
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
