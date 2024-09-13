@@ -5,7 +5,7 @@ import missionImage from '../assets/ourMission.jpg'
 const OurMission = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
-    <h1 className="my-20 text-center text-4xl">
+    <h1 className="section-heading gradient-heading">
    Our Mission
     <span className='text-neutral-500 '></span>
     </h1>

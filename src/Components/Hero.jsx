@@ -12,8 +12,8 @@ const Hero = () => {
                         <h1  className='p-16 text-3xl font-thin tracking-tight text-left lg:mt-16 lg:text-4xl block'>Welcome to <span className='bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-5xl lg:text-8xl text-transparent font-semibold tracking-tighter font-serif block'>Hello SHE</span>
                         </h1>
                         <p
-                            className='bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight '>A Non Profitable Organization</p>
-                        <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</p>
+                            className='gradient-heading'>A Non Profitable Organization</p>
+                        <p className='my-2 max-w-xl py-6 text-xl tracking-tighter '>{HERO_CONTENT}</p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">

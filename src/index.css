@@ -19,4 +19,10 @@
     .all-centered{
         @apply flex items-center justify-center
     }
+    .gradient-heading{
+        @apply bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight 
+    }
+    .section-heading{
+        @apply my-20 text-center text-4xl font-semibold
+    }
   }
