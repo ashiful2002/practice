@@ -3,9 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/helloSheLogo.jpg'
 import { Button } from 'react-bootstrap';
-// import Hero from '../Components/Hero';
-// import About from '../Components/About';
-
 
 
 const Header = () => {
@@ -21,17 +18,21 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
 
                     <Nav className="ms-auto items-center justify-center ">
-                        <Nav.Link href='../Components/Hero' >Home</Nav.Link>
-                        <Nav.Link href='../Components/About'>About</Nav.Link>
-                        <Nav.Link href='../Components/About'>Impact</Nav.Link>
-                        <Nav.Link href='../Components/About'>Mission</Nav.Link>
-                        <Nav.Link href='../Components/About'>Fields</Nav.Link>
-                        <Nav.Link href='../Components/About'>Testimonials</Nav.Link>
-                        <Nav.Link href='../Components/About'>Stay Updated</Nav.Link>
-                        <Nav.Link href='../Components/About'>Supporting Partner</Nav.Link>
-                        <Nav.Link href='../Components/About'>
-                            <Button>Join us</Button>
+                        <Nav.Link href='/home'>Home</Nav.Link>
+                        <Nav.Link href='/about'>About</Nav.Link>
+                        <Nav.Link href='/impact'>Impact</Nav.Link>
+                        <Nav.Link href='/missioin'>Mission</Nav.Link>
+                        <Nav.Link href='/fields'>Fields</Nav.Link>
+                        <Nav.Link href='/testimonials'>Testimonials</Nav.Link>
+                        <Nav.Link href='/stay_updatd'>Stay Updated</Nav.Link>
+                        <Nav.Link href='/partners'>Supporting Partner</Nav.Link>
+                        <Nav.Link href='/join_us'>
+                            <a href='https://forms.gle/Vc3tZHcxq3xixSgF6' download="true" target='_blank'>
+                                <Button >Join Us</Button>
+                            </a>
                         </Nav.Link>
+
+                       
 
                     </Nav>
                 </Navbar.Collapse>

@@ -12,12 +12,11 @@ const Contact = () => {
         <span className='text-neutral-500 '></span>
       </h1>
       <div className="flex items-center justify-center flex-wrap">
-        <div className="w-full lg:w-1/2 flex justify-center lg:p-8">
+        <div className="w-full lg:w-1/2 flex justify-center  bg-amber-300 rounded-lg lg:p-8">
 
 
-        
+          {/* here will be added a form message */}
 
-          <iframe className="rounded-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144977.39815190804!2d90.33728815181978!3d23.780975728157546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e1!3m2!1sbn!2sbd!4v1725979124387!5m2!1sbn!2sbd" width="auto" height="auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className='w-full lg:w-1/2 mt-10 text-center tracking-tighter'>
 

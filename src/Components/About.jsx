@@ -1,12 +1,14 @@
 import aboutImage from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants'
+import { Divider } from 'antd';
 
 const About = () => {
     return (
-        <div className='border-b border-neutral-900 pb-4'>
+        <div className=' pb-4'>
             <h1 className="section-heading gradient-heading">
-           About us
-            <span className='text-neutral-500 '></span>
+                About us
+
+                <span className='text-neutral-500 '></span>
             </h1>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8 ">
@@ -14,10 +16,18 @@ const About = () => {
                 </div>
                 <div className='w-full lg:w-1/2 flex justify-start'>
                     <div className="flex justify-center ">
-                        <p className='my-2 max-w-xl py-6 flex '>{ABOUT_TEXT}</p>
+                        <p className='section-para'>{ABOUT_TEXT}</p>
                     </div>
                 </div>
             </div>
+
+            <Divider
+                className='bg-neutral-900'
+                variant="dotted"
+
+            ></Divider>
+            
+
         </div>
     )
 }
