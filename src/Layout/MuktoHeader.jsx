@@ -38,8 +38,9 @@ const Header = () => {
 
                         <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Home</a></li>
                         <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">About</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Service</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Skills</a></li>
+                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Impact</a></li>
+                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Mission</a></li>
+                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Field</a></li>
                         <li className='sm:m-2 cursor-pointer  p-4 rounded w-full'><a href="#">
                             < CommonButton btnText="Contact" />
                         </a></li>
