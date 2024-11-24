@@ -12,7 +12,7 @@ const Contact = () => {
         <span className='text-neutral-500 '></span>
       </h1>
       <div className="flex items-center justify-center flex-wrap">
-        <div className="w-full lg:w-1/2 flex justify-center  bg-amber-300 rounded-lg lg:p-8">
+        <div className="hidden w-full lg:w-1/2  justify-center  bg-amber-300 rounded-lg lg:p-8">
 
 
           {/* here will be added a form message */}

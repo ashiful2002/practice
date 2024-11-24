@@ -4,14 +4,17 @@ import { GiCrossMark } from "react-icons/gi";
 
 import logo from '../assets/helloSheLogo.jpg'
 import CommonButton from '../Components/Btn/CommonButton'
-
+import { NAVIGATION } from '../constants/index'
 
 const Header = () => {
 
-    const [showMeu, setShowMeu] = useState(false);
-    const changeOption = () => {
-        setShowMeu(!showMeu)
+    const [toggle, setToggle] = useState(false);
+    const handleToggle = () => {
+        setToggle(!toggle)
         console.log("is working");
+    }
+    const handleMenuIteem = () => {
+        setToggle(false)
     }
     return (
         <div className='max-w-full bg-slate-800'>
@@ -21,34 +24,24 @@ const Header = () => {
                         <img width={80} className='rounded-full ring-2 ring-purple-500' src={logo} alt="ashiful islam" />
                     </a>
                 </div>
-
                 {
-
-                    <span onClick={changeOption} className='mr-4 '>
+                    <span onClick={handleToggle} className='mr-4 '>
                         {
-                            showMeu ? < GiCrossMark className='md:hidden text-2xl' /> : <FaBars className='md:hidden text-2xl' />
+                            toggle ? < GiCrossMark className='md:hidden text-2xl' /> : <FaBars className='md:hidden text-2xl' />
                         }
                     </span>
                 }
-
-                <nav className={`${showMeu ? 'flex  absolute top-20 w-screen flex-col list-none overflow-hidden gap-1 items-center py-4 bg-blue-900' : 'hidden'} md:flex md:items-center md:w-auto list-none `} >
-
-
-                    <>
-
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Home</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">About</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Impact</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Mission</a></li>
-                        <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full'><a href="#">Field</a></li>
-                        <li className='sm:m-2 cursor-pointer  p-4 rounded w-full'><a href="#">
-                            < CommonButton btnText="Contact" />
+                <nav className={`${toggle ? 'flex  absolute top-20 w-screen flex-col list-none overflow-hidden gap-1 items-center py-4 bg-blue-900' : 'hidden'} md:flex md:items-center md:w-auto list-none `} >
+                    <>     {
+                        NAVIGATION.map(({ id, title, url }) => {
+                            return <li className='sm:m-2 cursor-pointer hover:bg-slate-900 p-4 rounded w-full' onClick={handleMenuIteem} key={id}><a href={url}>{title}</a></li>
+                        })
+                    }
+                        <li onClick={handleMenuIteem} className='sm:m-2 cursor-pointer  p-4 rounded w-full'><a href="#join_us">
+                            < CommonButton btnText="Join us" />
                         </a></li>
-
                     </>
-
                 </nav>
-
             </header>
         </div>
     )

@@ -4,6 +4,79 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
+import { GrRestroomWomen } from "react-icons/gr";
+import { FaChildren } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaMobile } from "react-icons/fa";
+import { GoProject } from "react-icons/go";
+ 
+
+export  const IMPACT = [
+  {
+    id: '0',
+    title: "10+",
+    icon: <GoProject />,
+    desc: "project"
+  },
+  {
+    id: '1',
+    title: "example",
+    icon: <FaChildren />,
+    desc: "some description"
+  },
+  {
+    id: '2',
+    title: "example",
+    icon: <GrRestroomWomen />,
+    desc: "some description"
+  },
+  {
+    id: '3',
+    title: "example",
+    icon: <FaHome />,
+    desc: "some description"
+  },
+  {
+    id: '4',
+    title: "example",
+    icon: <MdOutlineSecurity />,
+    desc: "some description"
+  },
+  {
+    id: '5',
+    title: "example",
+    icon: <FaMobile />,
+    desc: "some description"
+  },
+]
+export const NAVIGATION = [
+  {
+    id: "0",
+    title: "Home",
+    url: "#home"
+  },
+  {
+    id: "1",
+    title: "Impact",
+    url: "#impact"
+  },
+  {
+    id: "2",
+    title: "Mission-Vision",
+    url: "#mission_vision"
+  },
+  {
+    id: "3",
+    title: "Focusing area",
+    url: "#focusing area"
+  },
+  {
+    id: "4",
+    title: "Blog",
+    url: "#blog"
+  },
+]
 export const HERO_CONTENT = `Empowering women and female students to navigate the digital world securely. At Hello She, we are dedicated to creating awareness and providing resources on Cyber Security to ensure that women of all ages are protected online. Join us in our mission to build a safer digital space for everyone.`;
 
 export const ABOUT_TEXT = `Hello She is a non-profit organization dedicated to raising awareness about Cyber Security among women and female students. We believe that in today’s digital age, everyone deserves to feel safe online, and our goal is to provide the knowledge and tools necessary to achieve that.`;
@@ -41,7 +114,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
+export const PROGRAMS = [
   {
     title: "Cyber Security Workshops",
     image: project1,
@@ -75,5 +148,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Dhaka, Bangladesh",
   phoneNo: "+880 1893-791746",
-  email: "ahantor602@gmail.com",
+  email: "contact@helloshe.org",
 };

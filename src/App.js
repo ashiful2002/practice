@@ -7,6 +7,7 @@ import Projects from "./Components/Programs";
 import MuktoHeader from './Layout/MuktoHeader'
 
 import './App.css'
+import Impact from "./Components/Impact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="container mx-auto px-2 ">
 
         < Hero />
+        < Impact />
         < About />
         < OurMission />
         < Projects />

@@ -22,7 +22,10 @@
     }
 
     .gradient-heading {
-        @apply bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight
+        @apply bg-gradient-to-r from-purple-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight
+    }
+    .gradient-text {
+        @apply 
     }
 
     .section-heading {
