@@ -53,28 +53,34 @@ export  const IMPACT = [
 export const NAVIGATION = [
   {
     id: "0",
-    title: "Home",
+    title: "home",
     url: "#home"
   },
   {
-    id: "1",
-    title: "Impact",
-    url: "#impact"
+    id: "001",
+    title: "about",
+    url: "#about"
   },
+  // {
+  //   id: "1",
+  //   title: "Impact",
+  //   url: "#impact"
+  // },
+ 
+  // {
+  //   id: "3",
+  //   title: "Focusing area",
+  //   url: "#focusing area"
+  // },
   {
-    id: "2",
-    title: "Mission-Vision",
-    url: "#mission_vision"
-  },
-  {
-    id: "3",
-    title: "Focusing area",
-    url: "#focusing area"
+    id: "4",
+    title: "programs",
+    url: "#programs"
   },
   {
     id: "4",
-    title: "Blog",
-    url: "#blog"
+    title: "Contact",
+    url: "#contact"
   },
 ]
 export const HERO_CONTENT = `Empowering women and female students to navigate the digital world securely. At Hello She, we are dedicated to creating awareness and providing resources on Cyber Security to ensure that women of all ages are protected online. Join us in our mission to build a safer digital space for everyone.`;
@@ -83,36 +89,7 @@ export const ABOUT_TEXT = `Hello She is a non-profit organization dedicated to r
 export const OUR_MISSION = `To educate, empower, and support women and female students in understanding and practicing Cyber Security, enabling them to confidently protect themselves and their digital assets.
 `;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+;
 
 export const PROGRAMS = [
   {
