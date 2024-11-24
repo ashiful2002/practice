@@ -9,7 +9,7 @@ const Projects = () => {
         <div>
           <PageTitle heading="Programes we have done" />
         </div>
-        <div className="p-2 my-4 border ">
+        <div className="p-2 my-4 ">
           {PROGRAMS.map((item, index) => (
             <div
               key={index}
