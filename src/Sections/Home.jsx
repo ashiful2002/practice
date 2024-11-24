@@ -5,10 +5,10 @@ import { HERO_CONTENT } from "../constants";
 
 const Home = () => {
   return (
-    <div className="" id="home">
+    <div className="" >
       <div>
-        <PageTitle heading="Home" />
-        <div>
+        {/* <PageTitle heading="Home" /> */}
+        <div id="home">
         <h1 className="p-16 text-3xl font-thin tracking-tight text-left lg:mt-16 lg:text-4xl block">
               Welcome to{" "}
               <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-5xl lg:text-8xl text-transparent font-semibold tracking-tighter font-serif block">

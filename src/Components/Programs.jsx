@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <div id="programs">
         <div>
-          <PageTitle heading="Programes we have done" />
+          <PageTitle heading="Programes we have done"  />
         </div>
         <div className="p-2 my-4 ">
           {PROGRAMS.map((item, index) => (

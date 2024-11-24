@@ -23,6 +23,20 @@ a {
 }
 
 @layer components {
+  .primary_color {
+    @apply text-violet-500;
+  }
+  .secondary_color {
+    @apply text-white;
+  }
+  .primary_hover {
+    @apply text-violet-500;
+  }
+  .secondary_hover {
+    @apply text-white;
+  }
+  
+  
   .btn-primary {
     @apply py-2 px-5 bg-gradient-to-r from-pink-300 to-purple-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
   }

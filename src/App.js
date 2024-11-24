@@ -10,6 +10,7 @@ import "./App.css";
 import Impact from "./Components/Impact";
 import BsHeader from "./Layout/BsHeader";
 import Home from "./Sections/Home";
+import Mission from "./Sections/Mission";
 
 function App() {
   return (
@@ -18,16 +19,11 @@ function App() {
       <div className="container mx-auto px-2 ">
         <Home />
         <About />
+        < Mission />
         <Projects />
         <Contact />
         <Footer />
-        {/* < Hero />
-        < Impact />
-        < About />
-        < OurMission />
-        < Projects />
-        < Contact />
-        <Footer /> */}
+       
       </div>
     </div>
   );
