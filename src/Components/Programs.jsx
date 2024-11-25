@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import { PROGRAMS } from "../constants";
 import PageTitle from "./Title/Title";
 
@@ -7,26 +6,27 @@ const Projects = () => {
     <>
       <div id="programs">
         <div>
-          <PageTitle heading="Programes we have done"  />
+          <PageTitle heading="Programes we have done" />
         </div>
         <div className="p-2 my-4 ">
           {PROGRAMS.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center mt-10 justify-center md:flex-row  border p-4 rounded-xl shadow  shadow-teal-700"
+              className="flex flex-col items-center mt-10 gap-3 justify-center md:flex-row  border p-4 rounded-xl shadow  shadow-teal-700"
             >
-              <div>
-                <h5 className="h5">{item.title}</h5>
-              </div>
               <div>
                 <img
                   src={item.image}
-                  className="w-full rounded-xl"
+                  className="w-full rounded-xl "
                   alt={item.title}
                 />
               </div>
               <div>
-                <p>{item.description}</p>
+               
+              </div>
+              <div>
+              <h5 className="h3">{item.title}</h5>
+                <p className="text-[20px] px-4  leading-tight">{item.description}</p>
               </div>
             </div>
           ))}

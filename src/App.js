@@ -7,10 +7,10 @@ import Projects from "./Components/Programs";
 import MuktoHeader from "./Layout/MuktoHeader";
 
 import "./App.css";
-import Impact from "./Components/Impact";
 import BsHeader from "./Layout/BsHeader";
 import Home from "./Sections/Home";
 import Mission from "./Sections/Mission";
+import Impact from "./Sections/Impact";
 
 function App() {
   return (
@@ -19,11 +19,11 @@ function App() {
       <div className="container mx-auto px-2 ">
         <Home />
         <About />
-        < Mission />
+        <Mission />
+        <Impact />
         <Projects />
         <Contact />
         <Footer />
-       
       </div>
     </div>
   );

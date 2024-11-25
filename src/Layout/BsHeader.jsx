@@ -6,16 +6,17 @@ import { NAVIGATION } from "../constants";
 
 function BsHeader() {
   return (
-    <Navbar expand="md" className="bg-body-tertiary">
+    <Navbar collapseOnSelect  expand="md" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/" className="flex justify-center items-center">
           <img
             src={logo}
             className="mx-2 w-20 rounded-full"
-            alt="hello She logo"
+            alt="hello She"
           /> 
-          <h1 className="btn text-3xl ml-3  shadow  px-2 text-violet-500 font-sans font-extrabold">HELLO SHE</h1>
+          {/* <h1 className="btn text-3xl ml-3  shadow  px-2 text-violet-500 font-sans font-extrabold">HELLO SHE</h1> */}
         </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
